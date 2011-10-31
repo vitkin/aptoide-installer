@@ -10,7 +10,7 @@ public class Start extends Activity {
     public void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
 
-    	String weburl = "http://m.aptoide.com";
+    	String weburl = "http://m.aptoide.com/installer";
     	Intent myintent = new Intent(Intent.ACTION_VIEW);
     	myintent.setData(Uri.parse(weburl));
     	startActivity(myintent);
